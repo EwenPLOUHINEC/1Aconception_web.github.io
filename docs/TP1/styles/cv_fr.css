@@ -1,4 +1,44 @@
-header {
-    background-color: black;
-    color:aqua;
-} black
+header, footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(3, 3, 97);
+    color:white;
+} 
+
+body{
+    margin: 0px;
+    width: 100%;
+}
+
+#id_pp{
+    position: absolute; right:0px;
+}
+
+.element_gauche {
+    width: fit-content;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.element_centre {
+    width: fit-content;
+    color: rgb(126, 126, 247);
+}
+.element_droite {
+    width: fit-content;
+    font-size: 15px;
+}
+
+.titre {
+    position: relative; left: 100px;
+}
+
+.ligne p {
+    display: inline-block;
+    width: fit-content;
+
+}
+
+.ligne {
+    margin-left: 70px;
+}
